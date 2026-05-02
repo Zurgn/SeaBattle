@@ -21,9 +21,9 @@ void Draw(char player[10][10], char bot[10][10])
             cout<<i+1<<" "; if(i!=9){cout<<" ";}
             for(int j=0;j<10;j++)
             {
-                // if(bot[i][j]=='#'){cout<<'~'<<" ";}
-                // else{cout<<bot[i][j]<<" ";}
-                cout<<bot[i][j]<<" ";
+                if(bot[i][j]=='#'){cout<<'~'<<" ";}
+                else{cout<<bot[i][j]<<" ";}
+                // cout<<bot[i][j]<<" ";
             }
             cout<<'\n';
         }
